@@ -1,0 +1,17 @@
+config_version=5
+
+[application]
+config/name="Sideline Signal"
+config/version="1.0"
+run/main_scene="res://main.tscn"
+
+[display]
+window/size/viewport_width=1200
+window/size/viewport_height=740
+window/stretch/mode="canvas_items"
+window/stretch/aspect="keep"
+
+[rendering]
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+environment/defaults/default_clear_color=Color(0.071, 0.118, 0.141, 1)
